@@ -407,7 +407,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #fff;
+  color: #fff;  
+}
+
+a:hover {
+  color: #C0392B;
+  opacity: 0.8;
 }
 
 #mobile-nav ul li li {
@@ -687,6 +692,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   height: 260px;
   width: 260px;
+}
+
+.pic:hover {
+    opacity: 0.8;
+    transform: scale(1.025);
+    transition: all .25s ease;
 }
 
 #testimonials .profile .pic img {
