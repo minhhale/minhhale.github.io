@@ -569,19 +569,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/subscribe-bg.jpg) fixed center center;
   background-size: cover;
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 #subscribe .subscribe-title {
   color: #fff;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 #subscribe .subscribe-text {
   color: #fff;
+  font-size: 20px;
+  text-align:right;
 }
 
 #subscribe .subscribe-btn-container {
@@ -661,7 +663,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item:hover .details {
-  opacity: 0.8;
+  color: #000;
+  opacity: 0.1;
 }
 
 #portfolio .portfolio-item:hover .details h4 {
@@ -695,7 +698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .pic:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     transform: scale(1.025);
     transition: all .25s ease;
 }
