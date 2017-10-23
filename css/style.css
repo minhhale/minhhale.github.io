@@ -717,7 +717,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all .25s ease;
 }
 
-#testimonials .profile .pic img {
+.hanh-pic {
+  border: 6px solid #fff;
+  margin-bottom: 15px;
+  overflow: hidden;
+  width: 100%
+}
+#testimonials .profile .pic .hanhpic img {
   max-width: 100%;
 }
 
