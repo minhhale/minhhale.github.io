@@ -721,8 +721,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 6px solid #fff;
   margin-bottom: 15px;
   overflow: hidden;
-  width: 100%
 }
+
+.image-responsive {
+  display: block;
+  max-width: 100%
+  height: auto;
+}
+
 #testimonials .profile .pic .hanhpic img {
   max-width: 100%;
 }
