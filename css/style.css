@@ -489,9 +489,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-#about .about-container {
-  background: url(../img/minhha-sej.jpg) left top no-repeat;
+.img-responsive,
+{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
+
+/*#about .about-container {
+  background: url(../img/minhha-sej.jpg) left top no-repeat;
+}*/
 
 #about .about-content {
   background: #fff;
