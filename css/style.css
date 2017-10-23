@@ -717,20 +717,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all .25s ease;
 }
 
-.hanh-pic {
-  border: 6px solid #fff;
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-
-.image-responsive {
-  display: block;
-  max-width: 100%
-  height: auto;
-  margin: 0 auto;
-}
-
-#testimonials .profile .pic .hanhpic img {
+#testimonials .profile .pic img {
   max-width: 100%;
 }
 
