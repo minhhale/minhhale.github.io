@@ -727,6 +727,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   max-width: 100%
   height: auto;
+  margin: 0 auto;
 }
 
 #testimonials .profile .pic .hanhpic img {
