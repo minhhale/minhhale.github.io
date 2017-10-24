@@ -503,6 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
   height: auto;
   margin-top: 0.3em;
+  margin-bottom: 1em;
 }
 
 /*#about .about-container {
