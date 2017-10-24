@@ -98,7 +98,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-container {
   /*background: rgba(0, 0, 0, 0.1);*/
-  background: #FFFFFF;
+  background: url(../img/banner.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
   display: table-cell;
   margin: 0;
   padding: 0;
